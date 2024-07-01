@@ -24,7 +24,7 @@ pipeline {
                             "PYTHON_HOME=C:\\Users\\rehou\\AppData\\Local\\Microsoft\\WindowsApps",
                             "PATH=%JAVA_HOME%\\bin;%PYTHON_HOME%;%PATH%"
                         ]) {
-                            bat 'echo "Running on Windows"
+                            bat 'echo "Running on Windows"'
                             bat 'python data_analysis.py'
                         }
                     }
